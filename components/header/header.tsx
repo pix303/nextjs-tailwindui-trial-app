@@ -6,6 +6,7 @@ export default function Header() {
         <ul className={styles.menu}>
             <li><Link href={"/basic-elements"}>Basic elements</Link></li>
             <li><Link href={"/form"}>Form</Link></li>
+            <li><Link href={"/table"}>Table</Link></li>
         </ul>
     )
 }

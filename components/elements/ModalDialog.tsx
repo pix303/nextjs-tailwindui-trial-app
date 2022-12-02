@@ -12,11 +12,12 @@ export type ModalDialogButtonProps = {
 export type ModalDialogProps = {
     title: string;
     children: ReactNode
+    show: boolean;
     buttons?: ModalDialogButtonProps[]
 }
 
-export default function ModalDialog({ title, children }: ModalDialogProps) {
-    const [open, setOpen] = useState(true)
+export default function ModalDialog({ title, children, show }: ModalDialogProps) {
+    const [open, setOpen] = useState(show)
 
     const cancelButtonRef = useRef(null)
 

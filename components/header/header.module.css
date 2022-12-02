@@ -1,0 +1,7 @@
+.menu {
+  @apply p-5 flex gap-6;
+}
+
+.menu li {
+  @apply border-cyan-400 hover:border-cyan-700 border-b-2;
+}

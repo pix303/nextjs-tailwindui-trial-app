@@ -5,3 +5,30 @@
 h1 {
   @apply text-3xl font-bold mb-4;
 }
+
+button {
+  @apply inline-block 
+    rounded
+    px-6 py-2.5 
+  font-medium text-xs leading-tight
+    hover:shadow-lg 
+    focus:shadow-lg focus:ring-1
+    active:shadow-lg 
+    transition duration-150 ease-in-out;
+}
+
+button {
+  @apply text-slate-900 
+    bg-slate-300 
+    hover:bg-slate-100 
+    focus:bg-slate-300 focus:outline-slate-800  
+    active:bg-slate-100;
+}
+
+button.primary {
+  @apply text-white
+    bg-blue-800 
+    hover:bg-blue-500
+    focus:bg-blue-800  focus:outline-blue-800  
+    active:bg-blue-800;
+}

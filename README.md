@@ -1,2 +1,2 @@
-# nextjs-tailwindui-trial-app
+# Nextjs Tailwindui trial app
 Trial project for testing and demoing Nextjs 13 with Tailwindcss UI elements

@@ -1,8 +1,8 @@
+import Link from 'next/link';
+
 export default function TablePage() {
     return (
         <section className="font-sans">
-
-
 
             <table class="main-table">
 
@@ -22,7 +22,7 @@ export default function TablePage() {
                         <td>
                             <div class="flex items-center">
                                 <div class="text-sm font-medium leading-5 text-gray-900">
-                                    John Doe
+                                    <Link href={"/detail"}>John Doe</Link>
                                 </div>
                             </div>
                         </td>
@@ -36,16 +36,17 @@ export default function TablePage() {
                                 class="inline-flex px-2 text-xs font-semibold leading-5 text-green-800 bg-green-100 rounded-full">Active</span>
                         </td>
 
-                        <td
-                            class=" text-sm leading-5 text-gray-500">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                            </svg>
+                        <td class="text-sm leading-5 text-gray-500">
+                            <Link href={"/detail"}>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                </svg>
+                            </Link>
                         </td>
-                        <td
-                            class=" text-sm leading-5 text-gray-500 ">
+
+                        <td class=" text-sm leading-5 text-gray-500 ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-red-400" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -53,10 +54,6 @@ export default function TablePage() {
                             </svg>
                         </td>
                     </tr>
-
-
-
-
 
 
 

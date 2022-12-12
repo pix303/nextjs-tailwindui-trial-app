@@ -7,6 +7,7 @@ export default function Header() {
             <li><Link href={"/basic-elements"}>Basic elements</Link></li>
             <li><Link href={"/form"}>Form</Link></li>
             <li><Link href={"/typography"}>Typography</Link></li>
+            <li><Link href={"/list"}>Prova lista</Link></li>
         </ul>
     )
 }

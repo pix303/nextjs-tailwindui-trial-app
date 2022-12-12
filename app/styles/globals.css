@@ -32,3 +32,17 @@ button.primary {
     focus:bg-blue-800  focus:outline-blue-800  
     active:bg-blue-800;
 }
+
+/*  */
+
+table.main-table {
+  @apply min-w-full mb-12
+}
+
+table.main-table th {
+  @apply px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-500 uppercase border-b border-gray-200 bg-gray-50;
+}
+
+table.main-table td {
+  @apply px-6 py-4 border-b border-gray-200
+}
